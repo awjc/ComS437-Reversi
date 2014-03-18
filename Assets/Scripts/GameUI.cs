@@ -8,7 +8,6 @@ public class GameUI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		_play = Resources.Load ("menu-button-md") as Texture2D;
-		
 	}
 
 	void OnGUI()
