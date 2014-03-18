@@ -15,6 +15,8 @@ public class ObjectClick : MonoBehaviour {
 
 	void OnMouseDown()
 	{
+		Debug.Log("Click!");
 		GameController.GM.Score += 100;
+		Debug.Log(GameController.GM.Score);
 	}
 }

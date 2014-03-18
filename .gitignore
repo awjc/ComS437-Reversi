@@ -8,6 +8,8 @@ Obj/
 *.user
 *.userprefs
 
+app_Data/
+*.exe
 
 #################
 ## Eclipse

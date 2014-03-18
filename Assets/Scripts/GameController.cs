@@ -2,17 +2,21 @@
 using System.Collections;
 
 public class GameController : MonoBehaviour {
-
-	public static GameController GM;
+	private static GameController _gm;
+	public static GameController GM
+	{
+		get
+		{
+			return _gm;
+		}
+	}
 	public int Score { get; set; }
 
 	void Awake() 
 	{
 		Score = 0;
-		if (GM != null)
-				GameObject.Destroy (GM);
-		else
-				GM = this;
+		if (_gm == null)
+			_gm = this;
 		DontDestroyOnLoad (this);
 	}
 

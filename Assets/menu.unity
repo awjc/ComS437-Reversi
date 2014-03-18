@@ -84,6 +84,7 @@ GameObject:
   - 4: {fileID: 1533054437}
   - 114: {fileID: 1533054436}
   - 114: {fileID: 1533054435}
+  - 114: {fileID: 1533054438}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -124,6 +125,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1533054438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533054434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88600e11e69101443a2df9edfef131a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1728922752
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,6 +226,7 @@ GameObject:
   - 4: {fileID: 1768446255}
   - 114: {fileID: 1768446254}
   - 114: {fileID: 1768446253}
+  - 114: {fileID: 1768446256}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -254,3 +267,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1768446256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768446252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85769eed9188ae64e99abf15740e2f11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
